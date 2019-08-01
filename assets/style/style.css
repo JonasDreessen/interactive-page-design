@@ -44,3 +44,7 @@ header p{
 .container-fluid{
 	padding: 0;
 }
+
+.tabs{
+	background: grey;
+}
