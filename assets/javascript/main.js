@@ -82,3 +82,32 @@ var makeNumberCountUpTemperature = setInterval(makeNumberCountUpTemperature, 100
 }
 
 allTheNumbersCountingUp();
+
+document.querySelector(".tab-summary").addEventListener("click", displayOnlySummary);
+document.querySelector(".tab-contact").addEventListener("click", displayOnlyContact);
+document.querySelector(".tab-info").addEventListener("click", displayOnlyInfo);
+
+
+    var summary = document.querySelector(".summary");
+    var contact = document.querySelector(".contact");
+    var info = document.querySelector(".info");
+
+    function displayOnlySummary(){
+        summary.style.display = "block";
+        contact.style.display = "none";
+        info.style.display = "none";
+    };
+    displayOnlySummary();
+
+    function displayOnlyContact(){
+        summary.style.display = "none";
+        contact.style.display = "block";
+        info.style.display = "none";
+    };
+
+    function displayOnlyInfo(){
+        summary.style.display = "none";
+        contact.style.display = "none";
+        info.style.display = "block";
+    };
+
