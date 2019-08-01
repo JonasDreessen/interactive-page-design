@@ -3,6 +3,10 @@
 	margin: 0;
 }
 
+body{
+	background-image: linear-gradient(to right top, #3e1071, #77006c, #a3005d, #c30046, #d62129);
+}
+
 header img{
 	width: 100%;
 	height: 70vh;
@@ -46,5 +50,15 @@ header p{
 }
 
 .tabs{
-	background: grey;
+	text-align: center;
+}
+
+.main{
+	margin-left: 15%;
+	width: 70%;
+	margin-top: 50px;
+}
+
+.content{
+	background: #f9f9f9;
 }
