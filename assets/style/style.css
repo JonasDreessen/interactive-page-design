@@ -17,11 +17,23 @@ header p{
 	position: absolute;
 	text-align: center;
     line-height: 40px;
+    border-radius: 50px;
+    border: 2px solid white;
 }
 
 .left{
 	left: 50px;
 	top: 32vh;
+}
+
+.left:hover{
+	background: black;
+	cursor: pointer;
+}
+
+.right:hover{
+	background: black;
+	cursor: pointer;
 }
 
 .right{
