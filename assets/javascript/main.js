@@ -1,5 +1,5 @@
 var clickCounter = 0;
-let imageSourceArray = ["./assets/images/flying-pig-grote-markt.jpg", "./assets/images/concert-picture.jpg","./assets/images/party-picture.jpg"];
+let imageSourceArray = ["./assets/images/flying-pig-grote-markt.jpg", "./assets/images/panorama-picture.jpg","./assets/images/brussels.jpg"];
 
 function changeImageGeneral(){
 document.querySelector(".left").addEventListener("click",changeImageSourceLeftClick);
