@@ -29,3 +29,12 @@ function changeImageSourceLeftClick(){
     }
     }
 
+function makeNumberCountUp(){
+    let peopleComing = document.querySelector(".people-coming");
+    for (let i = 0; i < 800; i++){
+        peopleComing.innerHTML = i;
+    }
+}
+
+makeNumberCountUp();
+
