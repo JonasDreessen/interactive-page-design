@@ -121,4 +121,15 @@ footer{
 	background: white;
 	margin-top: 100px;
 	margin-bottom: 100px;
+	padding-left: 250px;
+	padding-right: 250px;
+	text-align: justify;
+}
+
+.content h2{
+	width: 100%;
+}
+
+.content input{
+	width: 100%;
 }
