@@ -1,8 +1,7 @@
 var clickCounter = 0;
 let imageSourceArray = ["./assets/images/flying-pig-grote-markt.jpg", "./assets/images/concert-picture.jpg","./assets/images/party-picture.jpg"];
 
-
-
+function changeImageGeneral(){
 document.querySelector(".left").addEventListener("click",changeImageSourceLeftClick);
 document.querySelector(".right").addEventListener("click",changeImageSourceRightClick);
 
@@ -28,6 +27,8 @@ function changeImageSourceLeftClick(){
         headerImage.src = imageSourceArray[clickCounter];
     }
     }
+}
+changeImageGeneral();
 
 
 function allTheNumbersCountingUp(){
