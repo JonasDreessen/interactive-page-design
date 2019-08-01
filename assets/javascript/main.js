@@ -29,6 +29,8 @@ function changeImageSourceLeftClick(){
     }
     }
 
+
+function allTheNumbersCountingUp(){
 var numberCounterPeopleComing = 0;
 function makeNumberCountUpPeopleComing(){
     numberCounterPeopleComing += 10;
@@ -72,11 +74,10 @@ function makeNumberCountUpTemperature(){
         clearInterval(makeNumberCountUpTemperature);
     }
 }
-
-
 var makeNumberCountUpPeopleComing = setInterval(makeNumberCountUpPeopleComing, 15);
 var makeNumberCountUpArtistPlaying = setInterval(makeNumberCountUpArtistPlaying, 150);
 var makeNumberCountUpDuration = setInterval(makeNumberCountUpDuration, 160);
 var makeNumberCountUpTemperature = setInterval(makeNumberCountUpTemperature, 100);
+}
 
-
+allTheNumbersCountingUp();
