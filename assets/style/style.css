@@ -57,8 +57,34 @@ header p{
 	margin-left: 15%;
 	width: 70%;
 	margin-top: 50px;
+}	
+
+.tab{
+	width: 50%;
+	margin-left: 25%;
+	padding: 5px;
+	background: #fff;
+	border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem .25rem 0 0;
 }
 
-.content{
-	background: #f9f9f9;
+.tab:hover{
+	background: red;
+}
+
+.card{
+	border: 1px solid red;
+}
+
+.bottom{
+	margin-top: 50px;
+	background: black;
+	color: #fff;
+	margin-left: 0;
+	margin-right: 0;
+	text-align: center;
+}
+
+.number{
+	margin-top: 50px;
 }
